@@ -1,0 +1,15 @@
+[project]
+name = "ipp-wbs-agent"
+version = "0.1.0"
+description = "階層型タスク管理・ガントチャート・日記機能を備えたカレンダー＆日記共有アプリ"
+dependencies = [
+    "google-adk>=2.8.0",
+    "google-genai>=2.22.0",
+    "a2ui-agent-sdk>=0.4.0,<0.8.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
